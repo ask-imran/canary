@@ -15,8 +15,8 @@ namespace Canary
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            IocConfigurator.Configure();
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //IocConfigurator.Configure();
+            //BundleConfig.RegisterBundles(BundleTable.Bundles);
 
         }
     }
