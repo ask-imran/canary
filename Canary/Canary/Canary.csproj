@@ -160,6 +160,8 @@
     <Compile Include="App_Start\IocConfigurator.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="Common\Helpers\IViewHelper.cs" />
+    <Compile Include="Common\Helpers\ViewHelper.cs" />
     <Compile Include="Common\Settings\AppSettingProvider.cs" />
     <Compile Include="Common\Settings\ISettingProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -174,6 +176,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\_Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
