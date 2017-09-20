@@ -4,41 +4,19 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>ViewBag.Title</title>
+    <link href="~/Styles/reset.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div>
+    @{  Html.RenderPartial("~/Views/Shared/_menu.cshtml"); }
+    <div class="content-body">
         @RenderBody()
     </div>
+    @{ Html.RenderPartial("~/Views/Shared/_footer.cshtml"); }
 </body>
 </html>
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
+    .content-body {
+        height: 400px;
+        background-color: white;
+    }
 </style>
