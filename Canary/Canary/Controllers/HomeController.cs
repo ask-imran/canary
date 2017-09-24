@@ -15,5 +15,10 @@ namespace Canary.Controllers
             return View();
 
         }
+        public ActionResult ToBeDeleted()
+        {
+            return View("ToBeDeleted");
+
+        }
     }
 }

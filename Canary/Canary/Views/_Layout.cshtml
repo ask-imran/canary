@@ -1,22 +1,24 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ViewBag.Title</title>
-    <link href="~/Styles/reset.css" rel="stylesheet" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Styles/site.css" rel="stylesheet" />
+    <title></title>
 </head>
 <body>
     @{  Html.RenderPartial("~/Views/Shared/_menu.cshtml"); }
-    <div class="content-body">
-        @RenderBody()
-    </div>
+                @RenderBody()
+
     @{ Html.RenderPartial("~/Views/Shared/_footer.cshtml"); }
+
+    <!-- Bootstrap JS (Kept in body to avoid performance overload)-->
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/tether/tether.js"></script>
+    <script src="~/Scripts/BootStrap/js/bootstrap.min.js"></script>
 </body>
 </html>
-<style>
-    .content-body {
-        height: 400px;
-        background-color: white;
-    }
-</style>
