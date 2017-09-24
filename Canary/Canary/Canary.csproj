@@ -149,42 +149,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\tether\tether-theme-arrows-dark.css" />
-    <Content Include="Content\tether\tether-theme-arrows-dark.min.css" />
-    <Content Include="Content\tether\tether-theme-arrows.css" />
-    <Content Include="Content\tether\tether-theme-arrows.min.css" />
-    <Content Include="Content\tether\tether-theme-basic.css" />
-    <Content Include="Content\tether\tether-theme-basic.min.css" />
-    <Content Include="Content\tether\tether.css" />
-    <Content Include="Content\tether\tether.min.css" />
     <Content Include="CustomerSpecific\KHAN\Images\logo-sm.png" />
     <Content Include="CustomerSpecific\KHAN\Images\logo.png" />
-    <Content Include="Images\maintenance.png" />
-    <Content Include="Images\underconstruction.png" />
-    <Content Include="Images\default-c1.png" />
-    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.2.1.js" />
-    <Content Include="Scripts\jquery-3.2.1.min.js" />
-    <Content Include="Scripts\jquery-3.2.1.slim.js" />
-    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
-    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.2.1.min.map" />
-    <None Include="Styles\BootStrap\bootstrap-grid.less" />
-    <Content Include="Scripts\tether\tether.js" />
-    <Content Include="Scripts\tether\tether.min.js" />
-    <Content Include="Styles\BootStrap\bootstrap-grid.min.css" />
-    <None Include="Styles\BootStrap\bootstrap-reboot.less" />
-    <Content Include="Styles\BootStrap\bootstrap-reboot.min.css" />
-    <None Include="Styles\BootStrap\bootstrap.less" />
-    <Content Include="Styles\BootStrap\bootstrap.min.css" />
+    <Content Include="Resources\Images\maintenance.png" />
+    <Content Include="Resources\Images\underconstruction.png" />
+    <Content Include="Resources\Images\default-c1.png" />
+    <None Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.intellisense.js" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.js" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.min.js" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.slim.js" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.slim.min.js" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.slim.min.map" />
+    <Content Include="Resources\Scripts\lib\jquery-3.2.1\jquery-3.2.1.min.map" />
+    <None Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.less" />
+    <Content Include="Resources\Scripts\lib\tether\tether.js" />
+    <Content Include="Resources\Scripts\lib\tether\tether.min.js" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.min.css" />
+    <None Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.less" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.min.css" />
+    <None Include="Resources\Styles\Preprocessors\BootStrap\bootstrap.less" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap.min.css" />
     <Content Include="Global.asax" />
-    <Content Include="Images\default-logo.png" />
-    <Content Include="Scripts\BootStrap\js\bootstrap.js" />
-    <Content Include="Scripts\BootStrap\js\bootstrap.min.js" />
-    <Content Include="Styles\Components\carousel.css" />
-    <Content Include="Styles\Components\carousel.less" />
-    <None Include="Styles\reset.less" />
-    <Content Include="Styles\site.css" />
+    <Content Include="Resources\Images\default-logo.png" />
+    <Content Include="Resources\Scripts\lib\BootStrap\js\bootstrap.js" />
+    <Content Include="Resources\Scripts\lib\BootStrap\js\bootstrap.min.js" />
+    <Content Include="Resources\Styles\Preprocessors\Components\carousel.css" />
+    <Content Include="Resources\Styles\Preprocessors\Components\carousel.less" />
+    <Content Include="Resources\Styles\Preprocessors\Pages\cover.css" />
+    <Content Include="Resources\Styles\site.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -199,6 +191,7 @@
     <Compile Include="Common\Helpers\ViewHelper.cs" />
     <Compile Include="Common\Settings\AppSettingProvider.cs" />
     <Compile Include="Common\Settings\ISettingProvider.cs" />
+    <Compile Include="Controllers\CoverController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SiteBaseController.cs" />
     <Compile Include="Global.asax.cs">
@@ -214,14 +207,16 @@
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\Shared\_menu.cshtml" />
     <Content Include="Views\Shared\_footer.cshtml" />
-    <Content Include="Styles\BootStrap\bootstrap-grid.css.map" />
-    <Content Include="Styles\BootStrap\bootstrap-grid.min.css.map" />
-    <Content Include="Styles\BootStrap\bootstrap-reboot.css.map" />
-    <Content Include="Styles\BootStrap\bootstrap-reboot.min.css.map" />
-    <Content Include="Styles\BootStrap\bootstrap.css.map" />
-    <Content Include="Styles\BootStrap\bootstrap.min.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.min.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.min.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap.css.map" />
+    <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap.min.css.map" />
     <Content Include="Views\Shared\_carousel.cshtml" />
-    <Content Include="Styles\site.less" />
+    <Content Include="Resources\Styles\Preprocessors\site.less" />
+    <Content Include="Views\Cover\Index.cshtml" />
+    <Content Include="Resources\Styles\Preprocessors\Pages\cover.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
