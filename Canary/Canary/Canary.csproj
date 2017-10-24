@@ -20,6 +20,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -164,6 +166,7 @@
     <None Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.less" />
     <Content Include="Resources\Scripts\lib\tether\tether.js" />
     <Content Include="Resources\Scripts\lib\tether\tether.min.js" />
+    <Content Include="Resources\Scripts\LocalFunctions.js" />
     <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-grid.min.css" />
     <None Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.less" />
     <Content Include="Resources\Styles\Preprocessors\BootStrap\bootstrap-reboot.min.css" />
@@ -191,6 +194,7 @@
     <Compile Include="Common\Helpers\ViewHelper.cs" />
     <Compile Include="Common\Settings\AppSettingProvider.cs" />
     <Compile Include="Common\Settings\ISettingProvider.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\CoverController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SiteBaseController.cs" />
@@ -217,6 +221,7 @@
     <Content Include="Resources\Styles\Preprocessors\site.less" />
     <Content Include="Views\Cover\Index.cshtml" />
     <Content Include="Resources\Styles\Preprocessors\Pages\cover.less" />
+    <Content Include="Views\Contact\ContactUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
