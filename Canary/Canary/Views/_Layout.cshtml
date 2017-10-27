@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -11,8 +10,11 @@
     <title></title>
 </head>
 <body>
-    @{  Html.RenderPartial("~/Views/Shared/_menu.cshtml"); }
-                @RenderBody()
+    @{
+        
+    }
+    @{  Html.RenderAction("Index","_MenuPartial"); }
+    @RenderBody()
 
     @{ Html.RenderPartial("~/Views/Shared/_footer.cshtml"); }
 
