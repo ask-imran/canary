@@ -10,10 +10,8 @@
     <title></title>
 </head>
 <body>
-    @{
-        
-    }
     @{  Html.RenderAction("Index","_MenuPartial"); }
+
     @RenderBody()
 
     @{ Html.RenderPartial("~/Views/Shared/_footer.cshtml"); }
