@@ -1,5 +1,6 @@
-﻿@{  Html.RenderAction("Index", "_CarouselPartial");}
-<div class="container marketing">
+﻿@{  Html.RenderPartial("~/Views/Shared/_carousel.cshtml"); }
+
+<div id="about" class="container marketing">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -27,3 +28,5 @@
     </div>
     <!-- /.row -->
 </div>
+@{ Html.RenderPartial("~/Views/Contact/ContactUs.cshtml"); }
+
