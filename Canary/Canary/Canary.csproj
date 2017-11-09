@@ -230,7 +230,7 @@
     <Content Include="Resources\Styles\Preprocessors\site.less" />
     <Content Include="Views\Cover\Index.cshtml" />
     <Content Include="Resources\Styles\Preprocessors\Pages\cover.less" />
-    <Content Include="Views\Contact\ContactUs.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -241,8 +241,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\_CarouselPartial\" />
-    <Folder Include="Views\_LayoutPartial\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
