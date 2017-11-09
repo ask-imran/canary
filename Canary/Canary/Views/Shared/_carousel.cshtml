@@ -10,7 +10,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         @foreach(var carouselInfo in Model.Select((value, i) => new { i, value })){
-        <div class="carousel-item @(@carouselInfo.i == 0 ? "active" : string.Empty)">
+        <div class="carousel-item @(@carouselInfo.i == 0 ? "active" : string.Empty) carousel-customHeight">
             <img class="first-slide" src="@carouselInfo.value.CarouselImageSrc" alt="First slide">
             <div class="container">
                 <div class="carousel-caption d-none d-md-block @carouselInfo.value.ImageCss">
@@ -51,3 +51,11 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<style>
+    .carousel-customHeight {
+        height:20rem;
+    }
+    .carousel-customHeight > img {
+            height:20rem;
+     }
+</style>

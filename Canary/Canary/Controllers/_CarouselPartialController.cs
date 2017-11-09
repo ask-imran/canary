@@ -18,21 +18,21 @@ namespace Canary.Controllers
                 ImageCss = "text-left",
                 CarouselHeaderText = "Example headline.",
                 CarouselDescription = "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-                CarouselImageSrc = "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                CarouselImageSrc = "CustomerSpecific/KHAN/Images/bigstock-Construction-Worker-At-Site.jpg"
             });
             _carouselList.Add(new CarouselInfo
             {
                 ImageCss = "",
                 CarouselHeaderText = "Another example headline.",
                 CarouselDescription = "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-                CarouselImageSrc = "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                CarouselImageSrc = "CustomerSpecific/KHAN/Images/construction-banner-blueprint.jpg"
             });
             _carouselList.Add(new CarouselInfo
             {
                 ImageCss = "text-right",
                 CarouselHeaderText = "One more for good measure.",
                 CarouselDescription = "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-                CarouselImageSrc = "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                CarouselImageSrc = "Resources/Images/default-c1.png"
             });
             return PartialView("_carousel", _carouselList);
         }

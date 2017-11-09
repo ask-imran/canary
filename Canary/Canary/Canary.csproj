@@ -149,6 +149,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CustomerSpecific\KHAN\Images\bigstock-Construction-Worker-At-Site.jpg" />
+    <Content Include="CustomerSpecific\KHAN\Images\construction-banner-blueprint.jpg" />
+    <Content Include="CustomerSpecific\KHAN\Images\constuction-banner.jpg" />
     <Content Include="CustomerSpecific\KHAN\Images\logo-sm.png" />
     <Content Include="CustomerSpecific\KHAN\Images\logo.png" />
     <Content Include="Resources\Images\maintenance.png" />
